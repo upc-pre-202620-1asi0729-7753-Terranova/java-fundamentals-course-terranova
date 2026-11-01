@@ -46,7 +46,7 @@ Este curso exprés de 1 hora está diseñado específicamente para introducir a 
 
 - **Conclusiones clave**: Dominio de la sintaxis contenedora `public class Main`, la estructura obligatoria del método ejecutable principal `public static void main(String[] args)` y el uso del comando de salida estándar `System.out.println()` para mostrar mensajes por consola.
 
-- **Empieza a programar**: [Abrir Plantilla - Lección 1](https://www.programiz.com/java-programming/online-compiler/)
+- **Empieza a programar**: [Abrir Plantilla - Lección 1](https://www.jdoodle.com/ia/7ssw-rgfk-ces6)
 
 
 
@@ -58,7 +58,7 @@ Este curso exprés de 1 hora está diseñado específicamente para introducir a 
 
 - **Conclusiones clave**: Aplicación estricta de tipos de datos en Java, diferenciando entre cadenas de texto (`String`), valores monetarios con decimales (`double`) para el dinero y números enteros (`int`) para contadores o identificadores.
 
-- **Empieza a programar**: [Abrir Plantilla - Lección 2](https://www.programiz.com/java-programming/online-compiler/)
+- **Empieza a programar**: [Abrir Plantilla - Lección 2](https://www.jdoodle.com/ga/jbzu-4fpc-c2zv)
 
 
 ### ➕ Lección 3: Sumando ingresos y calculando el porcentaje de tu meta (~7 minutos)
