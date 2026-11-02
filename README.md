@@ -42,7 +42,7 @@ Este curso exprés de 1 hora está diseñado específicamente para introducir a 
 
 - **Descripción**: Adéntrate en el mundo de la programación descubriendo cómo las computadoras ejecutan instrucciones paso a paso. Comprenderás la anatomía fundamental de una clase en Java y escribirás tu primer bloque de código funcional para desplegar el título principal de bienvenida de tu alcancía en la pantalla.
 
-- **Enlace**: [Ver la lección](https://www.youtube.com/watch?v=ejemplo-link1)
+- **Enlace**: [Ver la lección](https://www.youtube.com/watch?v=iaKjNxibhXY)
 
 - **Conclusiones clave**: Dominio de la sintaxis contenedora `public class Main`, la estructura obligatoria del método ejecutable principal `public static void main(String[] args)` y el uso del comando de salida estándar `System.out.println()` para mostrar mensajes por consola.
 
@@ -54,7 +54,7 @@ Este curso exprés de 1 hora está diseñado específicamente para introducir a 
 
 - **Descripción**: Aprende a declarar, inicializar y almacenar información dinámica dentro de la memoria temporal de tu alcancía digital. Definirás los parámetros esenciales que toda aplicación financiera necesita: el nombre del usuario, el saldo inicial de dinero y la meta de ahorro deseada.
 
-- **Enlace**: [Ver la lección](https://www.youtube.com/watch?v=ejemplo-link2)
+- **Enlace**: [Ver la lección](https://www.youtube.com/watch?v=hbcioY9mVk8)
 
 - **Conclusiones clave**: Aplicación estricta de tipos de datos en Java, diferenciando entre cadenas de texto (`String`), valores monetarios con decimales (`double`) para el dinero y números enteros (`int`) para contadores o identificadores.
 
