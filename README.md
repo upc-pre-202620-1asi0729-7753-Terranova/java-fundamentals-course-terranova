@@ -97,7 +97,7 @@ Este curso exprés de 1 hora está diseñado específicamente para introducir a 
 
 
 
-### 🔄 Lección 5: Construyendo el menú interactivo de opciones del usuario (~8 minutos)
+### 🔄 Lección 5: Construyendo el menú interactivo de opciones del usuario (~9 minutos)
 
 
 
