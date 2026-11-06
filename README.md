@@ -145,7 +145,8 @@ Este curso exprés de 1 hora está diseñado específicamente para introducir a 
 
 
 
-- **Enlace**: [Ver la lección](https://www.youtube.com/watch?v=ejemplo-link7)
+- **Enlace**: [Ver la lección](https://www.youtube.com/watch?v=2Q0IQt883Oc&t=2s)
+
 
 
 
