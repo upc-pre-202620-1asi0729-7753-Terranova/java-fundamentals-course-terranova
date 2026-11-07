@@ -113,7 +113,7 @@ Este curso exprés de 1 hora está diseñado específicamente para introducir a 
 
 
 
-- **Empieza a programar**: [Abrir Plantilla - Lección 5](https://www.programiz.com/java-programming/online-compiler/)
+- **Empieza a programar**: [Abrir Plantilla - Lección 5](https://www.jdoodle.com/ia/cpcn-mege-w3zn)
 
 
 
@@ -133,7 +133,7 @@ Este curso exprés de 1 hora está diseñado específicamente para introducir a 
 
 
 
-- **Empieza a programar**: [Abrir Plantilla - Lección 6](https://www.programiz.com/java-programming/online-compiler/)
+- **Empieza a programar**: [Abrir Plantilla - Lección 6](https://www.jdoodle.com/ia/j3xj-7r95-a8pm)
 
 
 
