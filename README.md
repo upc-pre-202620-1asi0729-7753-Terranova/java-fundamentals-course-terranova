@@ -154,7 +154,8 @@ Este curso exprés de 1 hora está diseñado específicamente para introducir a 
 
 
 
-- **Empieza a programar**: [Abrir Plantilla - Lección 7](https://www.jdoodle.com/ga/mw22-4pmm-x5xg)
+- **Empieza a programar**: [Abrir Plantilla - Lección 7](https://www.jdoodle.com/ia/xzyz-yen5-3qa9)
+
 
 
 
