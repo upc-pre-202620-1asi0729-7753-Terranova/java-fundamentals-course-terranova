@@ -69,7 +69,7 @@ Este curso exprés de 1 hora está diseñado específicamente para introducir a 
 
 
 
-- **Enlace**: [Ver la lección](https://www.youtube.com/watch?v=ejemplo-link3)
+- **Enlace**: [Ver la lección](https://youtu.be/MSdpfDXxzt4)
 
 - **Conclusiones clave**: Uso avanzado de operadores aritméticos fundamentales (`+`, `-`, `*`, `/`) y optimización de código mediante operadores de asignación abreviada o acumuladores operativos (`+=`, `-=`).
 
@@ -85,7 +85,7 @@ Este curso exprés de 1 hora está diseñado específicamente para introducir a 
 
 
 
-- **Enlace**: [Ver la lección](https://www.youtube.com/watch?v=ejemplo-link4)
+- **Enlace**: [Ver la lección](https://youtu.be/FhK7PPcPKDw)
 
 
 
