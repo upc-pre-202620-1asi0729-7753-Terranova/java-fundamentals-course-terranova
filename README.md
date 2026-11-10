@@ -38,7 +38,7 @@ Este curso exprés de 1 hora está diseñado específicamente para introducir a 
 
 
 
-### 🚀 Lección 1: Bienvenida a la Alcancía Virtual: Tu primer mensaje por consola (~7 minutos)
+### 🚀 Lección 1: Bienvenida a la Alcancía Virtual: Tu primer mensaje por consola (~8 minutos y 58 segundos)
 
 - **Descripción**: Adéntrate en el mundo de la programación descubriendo cómo las computadoras ejecutan instrucciones paso a paso. Comprenderás la anatomía fundamental de una clase en Java y escribirás tu primer bloque de código funcional para desplegar el título principal de bienvenida de tu alcancía en la pantalla.
 
@@ -55,7 +55,7 @@ Este curso exprés de 1 hora está diseñado específicamente para introducir a 
 
 
 
-### 📦 Lección 2: Configurando tu saldo y meta de ahorro con variables (~7 minutos)
+### 📦 Lección 2: Configurando tu saldo y meta de ahorro con variables (~5 minutos y 57 segundos)
 
 - **Descripción**: Aprende a declarar, inicializar y almacenar información dinámica dentro de la memoria temporal de tu alcancía digital. Definirás los parámetros esenciales que toda aplicación financiera necesita: el nombre del usuario, el saldo inicial de dinero y la meta de ahorro deseada.
 
@@ -72,7 +72,7 @@ Este curso exprés de 1 hora está diseñado específicamente para introducir a 
 
 
 
-### ➕ Lección 3: Sumando ingresos y calculando el porcentaje de tu meta (~7 minutos)
+### ➕ Lección 3: Sumando ingresos y calculando el porcentaje de tu meta (~5 minutos y 8 segundos)
 
 
 
@@ -94,7 +94,7 @@ Este curso exprés de 1 hora está diseñado específicamente para introducir a 
 
 
 
-### 🔀 Lección 4: Tomando decisiones: ¿Nos alcanza el saldo para un gasto? (~8 minutos)
+### 🔀 Lección 4: Tomando decisiones: ¿Nos alcanza el saldo para un gasto? (~5 minutos y 29 segundos)
 
 
 
@@ -120,7 +120,7 @@ Este curso exprés de 1 hora está diseñado específicamente para introducir a 
 
 
 
-### 🔄 Lección 5: Construyendo el menú interactivo de opciones del usuario (~9 minutos)
+### 🔄 Lección 5: Construyendo el menú interactivo de opciones del usuario (~8 minutos y 52 segundos)
 
 
 
@@ -147,7 +147,7 @@ Este curso exprés de 1 hora está diseñado específicamente para introducir a 
 
 
 
-### ⌨️ Lección 6: Capturando datos del teclado y creando acciones de la alcancía (~8 minutos)
+### ⌨️ Lección 6: Capturando datos del teclado y creando acciones de la alcancía (~7 minutos y 58 segundos)
 
 
 
@@ -175,7 +175,7 @@ Este curso exprés de 1 hora está diseñado específicamente para introducir a 
 
 
 
-### 🧱 Lección 7: Diseñando la estructura de tu Alcancía y el registro de Gastos (~8 minutos)
+### 🧱 Lección 7: Diseñando la estructura de tu Alcancía y el registro de Gastos (~7 minutos y 38 segundos)
 
 
 
@@ -203,7 +203,7 @@ Este curso exprés de 1 hora está diseñado específicamente para introducir a 
 
 
 
-### 🛡️ Lección 8: Protegiendo tu saldo y probando tu Alcancía Virtual en vivo (~9 minutos)
+### 🛡️ Lección 8: Protegiendo tu saldo y probando tu Alcancía Virtual en vivo (~10 minutos y 43 segundos)
 
 
 
