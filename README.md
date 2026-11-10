@@ -30,7 +30,7 @@ Este curso exprés de 1 hora está diseñado específicamente para introducir a 
 
 
 
-**Repositorio de Código Fuente**: https://github.com/tu-organizacion/java-fundamentals-course-tu-equipo
+**Repositorio de Código Fuente**: [Enlace del Repositorio](https://github.com/upc-pre-202620-1asi0729-7753-Terranova/java-fundamentals-course-terranova.git)
 
 
 
@@ -256,7 +256,7 @@ Este curso exprés de 1 hora está diseñado específicamente para introducir a 
 
 
 
-- **Cuestionario**: [Prueba de conocimientos de Java y Alcancía Virtual](https://forms.gle/tu-formulario-quiz)
+- **Cuestionario**: [Prueba de conocimientos de Java y Alcancía Virtual](https://docs.google.com/forms/d/e/1FAIpQLScG6BYgr6k7Mdg7xSvwXqRcenUVgmu8NyksCbw59wGD_Y4yWw/viewform?usp=header)
 
 
 
