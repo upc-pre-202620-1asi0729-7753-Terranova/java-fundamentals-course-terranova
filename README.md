@@ -63,7 +63,7 @@ Este curso exprés de 1 hora está diseñado específicamente para introducir a 
 
 - **Conclusiones clave**: Aplicación estricta de tipos de datos en Java, diferenciando entre cadenas de texto (`String`), valores monetarios con decimales (`double`) para el dinero y números enteros (`int`) para contadores o identificadores.
 
-- **Empieza a programar**: [Abrir Plantilla - Lección 2](https://www.jdoodle.com/ga/jbzu-4fpc-c2zv)
+- **Empieza a programar**: [Abrir Plantilla - Lección 2](https://www.jdoodle.com/ia/ubzz-egjb-wujk)
 
 <p align="center">
 <img width="623" height="392" alt="imgLeccion02" src="https://github.com/user-attachments/assets/51ab0249-86c2-4f81-a8c5-208be0631acc" />
@@ -84,7 +84,7 @@ Este curso exprés de 1 hora está diseñado específicamente para introducir a 
 
 - **Conclusiones clave**: Uso avanzado de operadores aritméticos fundamentales (`+`, `-`, `*`, `/`) y optimización de código mediante operadores de asignación abreviada o acumuladores operativos (`+=`, `-=`).
 
-- **Empieza a programar**: [Abrir Plantilla - Lección 3](https://www.programiz.com/java-programming/online-compiler/)
+- **Empieza a programar**: [Abrir Plantilla - Lección 3](https://www.jdoodle.com/ia/5kp9-eq5e-jank)
 
 
 <p align="center">
@@ -110,7 +110,7 @@ Este curso exprés de 1 hora está diseñado específicamente para introducir a 
 
 
 
-- **Empieza a programar**: [Abrir Plantilla - Lección 4](https://www.programiz.com/java-programming/online-compiler/)
+- **Empieza a programar**: [Abrir Plantilla - Lección 4](https://www.jdoodle.com/ia/b74h-23xu-tter)
 
 
 <p align="center">
@@ -219,7 +219,7 @@ Este curso exprés de 1 hora está diseñado específicamente para introducir a 
 
 
 
-- **Proyecto final**: [Ejecuta la Alcancía Virtual Completa](https://www.programiz.com/java-programming/online-compiler/) **¡Prueba y comparte!**
+- **Proyecto final**: [Ejecuta la Alcancía Virtual Completa](https://www.jdoodle.com/ia/7shs-8ast-2bjp) **¡Prueba y comparte!**
 
 
 <p align="center">
@@ -235,8 +235,6 @@ Este curso exprés de 1 hora está diseñado específicamente para introducir a 
 
 - **Código fuente completo**: [Repositorio de GitHub](https://github.com/tu-organizacion/java-fundamentals-course-tu-equipo)
 
-
-
 - **Todas las actividades prácticas y plantillas (/starter-files)**:
 
 
@@ -245,14 +243,14 @@ Este curso exprés de 1 hora está diseñado específicamente para introducir a 
 
 | Número de lección | Nombre de la Lección | Archivo en GitHub / Compilador |
 | :---: | :---: | :---: |
-| **Lección 1** | Bienvenida a la Alcancía Virtual | [starter-files/Leccion_01_Main.java](https://github.com/tu-organizacion/java-fundamentals-course-tu-equipo/blob/main/starter-files/Leccion_01_Main.java) |
-| **Lección 2** | Variables de Saldo y Meta | [starter-files/Leccion_02_Variables.java](https://github.com/tu-organizacion/java-fundamentals-course-tu-equipo/blob/main/starter-files/Leccion_02_Variables.java) |
-| **Lección 3** | Operadores Aritméticos | [starter-files/Leccion_03_Operadores.java](https://github.com/tu-organizacion/java-fundamentals-course-tu-equipo/blob/main/starter-files/Leccion_03_Operadores.java) |
-| **Lección 4** | Condicionales y Decisiones | [starter-files/Leccion_04_Condicionales.java](https://github.com/tu-organizacion/java-fundamentals-course-tu-equipo/blob/main/starter-files/Leccion_04_Condicionales.java) |
-| **Lección 5** | Bucles y Menú Interactivo | [starter-files/Leccion_05_Bucles.java](https://github.com/tu-organizacion/java-fundamentals-course-tu-equipo/blob/main/starter-files/Leccion_05_Bucles.java) |
-| **Lección 6** | Lectura con Scanner y Métodos | [starter-files/Leccion_06_MetodosScanner.java](https://github.com/tu-organizacion/java-fundamentals-course-tu-equipo/blob/main/starter-files/Leccion_06_MetodosScanner.java) |
-| **Lección 7** | Clases y Objetos POO | [starter-files/Leccion_07_POO_Clases.java](https://github.com/tu-organizacion/java-fundamentals-course-tu-equipo/blob/main/starter-files/Leccion_07_POO_Clases.java) |
-| **Lección 8** | Proyecto Final Encapsulado | [completed-examples/Main.java](https://github.com/tu-organizacion/java-fundamentals-course-tu-equipo/blob/main/completed-examples/Main.java) |
+| **Lección 1** | Bienvenida a la Alcancía Virtual | [starter-files/Leccion_01_Main.java](starter-files/Leccion01Main.java) |
+| **Lección 2** | Variables de Saldo y Meta | [starter-files/Leccion_02_Variables.java](starter-files/Leccion02Variables.java) |
+| **Lección 3** | Operadores Aritméticos | [starter-files/Leccion_03_Operadores.java](starter-files/Leccion03Operadores.java) |
+| **Lección 4** | Condicionales y Decisiones | [starter-files/Leccion_04_Condicionales.java](starter-files/Leccion04Condicionales.java) |
+| **Lección 5** | Bucles y Menú Interactivo | [starter-files/Leccion_05_Bucles.java](starter-files/Leccion05Bucles.java) |
+| **Lección 6** | Lectura con Scanner y Métodos | [starter-files/Leccion_06_MetodosScanner.java](starter-files/Leccion06MetodosScanner.java) |
+| **Lección 7** | Clases y Objetos POO | [starter-files/Leccion_07_POO_Clases.java](starter-files/Leccion07PooClases.java) |
+| **Lección 8** | Proyecto Final Encapsulado | [completed-examples/Main.java](starter-files/Leccion08ProyectoFinal.java) |
 
 </div>
 
