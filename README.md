@@ -49,6 +49,11 @@ Este curso exprés de 1 hora está diseñado específicamente para introducir a 
 - **Empieza a programar**: [Abrir Plantilla - Lección 1](https://www.jdoodle.com/ia/7ssw-rgfk-ces6)
 
 
+<p align="center">
+  <img width="623" height="392" alt="imgLeccion01" src="https://github.com/user-attachments/assets/1a59fe91-f43a-470b-9dcf-36cc16885343" />
+</p>
+
+
 
 ### 📦 Lección 2: Configurando tu saldo y meta de ahorro con variables (~7 minutos)
 
@@ -59,6 +64,12 @@ Este curso exprés de 1 hora está diseñado específicamente para introducir a 
 - **Conclusiones clave**: Aplicación estricta de tipos de datos en Java, diferenciando entre cadenas de texto (`String`), valores monetarios con decimales (`double`) para el dinero y números enteros (`int`) para contadores o identificadores.
 
 - **Empieza a programar**: [Abrir Plantilla - Lección 2](https://www.jdoodle.com/ga/jbzu-4fpc-c2zv)
+
+<p align="center">
+<img width="623" height="392" alt="imgLeccion02" src="https://github.com/user-attachments/assets/51ab0249-86c2-4f81-a8c5-208be0631acc" />
+</p>
+
+
 
 
 ### ➕ Lección 3: Sumando ingresos y calculando el porcentaje de tu meta (~7 minutos)
@@ -74,6 +85,12 @@ Este curso exprés de 1 hora está diseñado específicamente para introducir a 
 - **Conclusiones clave**: Uso avanzado de operadores aritméticos fundamentales (`+`, `-`, `*`, `/`) y optimización de código mediante operadores de asignación abreviada o acumuladores operativos (`+=`, `-=`).
 
 - **Empieza a programar**: [Abrir Plantilla - Lección 3](https://www.programiz.com/java-programming/online-compiler/)
+
+
+<p align="center">
+<img width="621" height="392" alt="imgLeccion03" src="https://github.com/user-attachments/assets/3eae992e-5ab4-4fe7-94c6-7d4002f19930" />
+</p>
+
 
 
 
@@ -96,6 +113,12 @@ Este curso exprés de 1 hora está diseñado específicamente para introducir a 
 - **Empieza a programar**: [Abrir Plantilla - Lección 4](https://www.programiz.com/java-programming/online-compiler/)
 
 
+<p align="center">
+<img width="626" height="390" alt="imgLeccion04" src="https://github.com/user-attachments/assets/9165d247-43af-4df5-a38a-28cb645078eb" />
+</p>
+
+
+
 
 ### 🔄 Lección 5: Construyendo el menú interactivo de opciones del usuario (~9 minutos)
 
@@ -113,7 +136,14 @@ Este curso exprés de 1 hora está diseñado específicamente para introducir a 
 
 
 
+
 - **Empieza a programar**: [Abrir Plantilla - Lección 5](https://www.jdoodle.com/ia/cpcn-mege-w3zn)
+
+
+<p align="center">
+<img width="625" height="393" alt="imgLeccion05" src="https://github.com/user-attachments/assets/028f8827-7e49-44e1-83e5-c189efe71743" />
+</p>
+
 
 
 
@@ -134,6 +164,14 @@ Este curso exprés de 1 hora está diseñado específicamente para introducir a 
 
 
 - **Empieza a programar**: [Abrir Plantilla - Lección 6](https://www.jdoodle.com/ia/j3xj-7r95-a8pm)
+
+
+
+<p align="center">
+<img width="624" height="392" alt="imgLeccion06" src="https://github.com/user-attachments/assets/f12365a8-baf0-4e78-ab32-58cc045bcce3" />
+</p>
+
+
 
 
 
@@ -158,6 +196,11 @@ Este curso exprés de 1 hora está diseñado específicamente para introducir a 
 
 
 
+<p align="center">
+<img width="619" height="387" alt="imgLeccion07" src="https://github.com/user-attachments/assets/b803affb-be02-482b-bbf2-661c1aaf3f02" />
+</p>
+
+
 
 
 ### 🛡️ Lección 8: Protegiendo tu saldo y probando tu Alcancía Virtual en vivo (~9 minutos)
@@ -177,6 +220,12 @@ Este curso exprés de 1 hora está diseñado específicamente para introducir a 
 
 
 - **Proyecto final**: [Ejecuta la Alcancía Virtual Completa](https://www.programiz.com/java-programming/online-compiler/) **¡Prueba y comparte!**
+
+
+<p align="center">
+<img width="632" height="392" alt="imgLeccion08" src="https://github.com/user-attachments/assets/0b134241-e6da-45d0-ac27-8f2ebf6e9653" />
+</p>
+
 
 
 
