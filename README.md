@@ -317,7 +317,7 @@ Este curso exprés de 1 hora está diseñado específicamente para introducir a 
   </div>
 
   <div style="font-size: 0.85rem; color: #64748b; text-align: right; border-top: 1px solid #e2e8f0; margin-top: 15px; padding-top: 10px;">
-    <strong>Fecha de entrega:</strong> [Fecha de entrega]
+    <strong>Fecha de entrega:</strong> 13/11/2026
   </div>
 
 </div>
