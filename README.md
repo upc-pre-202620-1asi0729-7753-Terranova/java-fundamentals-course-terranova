@@ -233,7 +233,7 @@ Este curso exprés de 1 hora está diseñado específicamente para introducir a 
 
 
 
-- **Código fuente completo**: [Repositorio de GitHub](https://github.com/tu-organizacion/java-fundamentals-course-tu-equipo)
+- **Código fuente completo**: [Repositorio de GitHub](completed-examples/ProyectoAlcancia.java)
 
 - **Todas las actividades prácticas y plantillas (/starter-files)**:
 
