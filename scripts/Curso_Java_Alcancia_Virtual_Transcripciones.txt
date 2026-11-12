@@ -1,0 +1,372 @@
+
+Fundamentos de Java para Principiantes: Mi Alcancía & Presupuesto Personal
+
+
+Lección 1: Bienvenida a la Alcancía Virtual: Tu primer mensaje por consola
+
+[0:01] Hola a todos. Les doy la bienvenida al curso de fundamentos de Java para principiantes. Este curso ha sido diseñado especialmente para ustedes, estudiantes de secundaria de entre 12 y 17 años que desean ingresar al mundo de la tecnología y aprender a programar desde cero, sin necesidad de conocimientos previos.
+
+[0:17] A lo largo de este curso de una hora, no solo aprenderemos teoría, sino que construiremos paso a paso un proyecto práctico: nuestra propia alcancía virtual y sistema de presupuesto personal.
+
+[0:33] ¿Para qué nos sirve este proyecto? Muchas veces queremos ahorrar para un objetivo, gestionar nuestras propinas o controlar nuestros gastos diarios. A través de este programa crearemos una herramienta que nos permita registrar ingresos, controlar gastos, calcular cuánto falta para alcanzar una meta de ahorro y consultar nuestro historial.
+
+[0:55] Lo mejor de todo es que aprenderán cómo funcionan por dentro las aplicaciones reales utilizando Java, uno de los lenguajes de programación más utilizados del mundo.
+
+[1:16] Iniciamos oficialmente con la Lección 1: Bienvenidos a la alcancía virtual, tu primer mensaje de consola. El objetivo de esta primera lección es dar nuestros primeros pasos en código.
+
+[1:30] Aprenderemos cómo la computadora se comunica con el usuario mostrando textos en pantalla, lo cual formará la interfaz visual de bienvenida a nuestra alcancía virtual.
+
+[1:42] Al finalizar esta lección, comprenderán la lógica de cómo Java muestra la información por consola y habrán escrito el encabezado principal del sistema de la alcancía virtual.
+
+[1:57] Antes de escribir el código de nuestra alcancía, revisemos cuatro conceptos fundamentales: ¿Qué es la programación y por qué Java? Programar es darle instrucciones claras, ordenadas y secuenciales a una computadora para resolver un problema. Elegimos Java porque es un lenguaje versátil usado en aplicaciones móviles, videojuegos y sistemas financieros.
+
+[2:21] Las reglas esenciales de la sintaxis en Java: la forma de escribir es estricta. El lenguaje distingue entre mayúsculas y minúsculas (lo que se conoce como case-sensitive). Todo texto literal debe ir entre comillas dobles y cada instrucción debe finalizar obligatoriamente con un punto y coma.
+
+[2:42] Instrucciones de impresión: para mostrar texto usamos System.out.println. System.out especifica la salida hacia la consola, después encontramos el .println, el cual ordena imprimir el texto y realiza un salto de línea. El mensaje a mostrar se coloca dentro de los paréntesis y entre comillas dobles.
+
+[3:11] Cero instalaciones: es lo que vamos a realizar en estos momentos. No necesitamos instalar ningún programa en sus computadoras. Trabajaremos 100% con editores de código en línea gratuitos, a los cuales podrán acceder directamente desde cualquier navegador web de su preferencia y estaremos haciendo diferentes secciones de ejercicios basados en nuestro proyecto.
+
+[3:58] Para desarrollar nuestro proyecto con éxito aplicaremos la mentalidad de ingeniero. La computadora es literal; la máquina no deduce intenciones, ejecuta exactamente lo que se ha escrito. Omitir un punto y coma o confundir mayúsculas causará un error de sintaxis.
+
+[4:18] Algoritmos y secuencias: un algoritmo es una serie de pasos ordenados para cumplir un objetivo. Por ejemplo, registrar un gasto: primero solicitamos el concepto, luego el monto, verificamos el saldo disponible y actualizamos la cuenta.
+
+[4:41] Ahora seguiremos la secuencia de entrada, proceso y salida. Todo programa recibe datos (entrada), realiza el proceso de la información y por último muestra el resultado (salida). En esta lección nos enfocaremos en la salida.
+
+[5:11] También tenemos el código limpio: desarrollaremos el código de manera limpia, organizada y fácil de comprender.
+
+[5:30] Bueno, ahora realizaremos nuestra práctica en línea donde estaremos ingresando. Como recordarán de las lecciones anteriores, en este curso no necesitamos instalar software pesado. Vamos a utilizar plataformas 100% en línea y gratuitas. En este video estamos utilizando JDoodle, un compilador rápido en la nube, y también íconos para darle una mejor visualización.
+
+[6:01] Una vez dentro de la plataforma, seleccionamos Java, configuramos las opciones básicas y empezamos a escribir nuestro código borrando lo que estaba por defecto.
+
+[6:21] Escribimos el nombre de nuestra clase de forma correcta y limpia, siguiendo las normas de sintaxis que aprendimos: public class Leccion01.
+
+[6:34] Dentro de este método principal (main), vamos a programar nuestra primera instrucción de salida usando el comando System.out.println.
+
+[6:46] Recuerden las reglas de oro: el texto va entre comillas dobles y cada instrucción termina obligatoriamente con un punto y coma. Vamos a imprimir el título de nuestra aplicación y el mensaje de bienvenida para nuestro asistente de ahorro personal.
+
+[7:11] Le estamos dando formato para simular un marco o línea decorativa que subraye el título, cerrando el texto para que se vea más presentable.
+
+[7:45] Escribiremos un par de líneas más en la parte inferior utilizando System.out.println. No olvidemos cerrar con punto y coma para que no marque error.
+
+[8:20] Podemos escoger un ícono que quisiéramos según el proyecto. En nuestro caso elegimos uno, lo copiamos y lo pegamos (Ctrl + V) al inicio y al final.
+
+[8:48] Le damos a ejecutar y vemos que nos marca un error. Al revisar la consola, nos indica en dónde nos hemos equivocado. Verificamos esa línea de código y la corregimos, es muy sencillo.
+
+[9:15] Una vez corregido, ya podemos ver la ejecución. Si notamos que nos confundimos en alguna letra o que las líneas no están alineadas, las corregimos y ejecutamos de nuevo para visualizar el resultado.
+
+[9:46] Esto fue todo por la Lección 1. Nos vemos en la Lección 2. Muchas gracias.
+
+
+Lección 2: Configurando tu saldo y meta de ahorro con variables
+
+[0:01] Hola a todos, bienvenidos a la lección 2 de nuestro curso de fundamentos de Java para principiantes. En esta oportunidad daremos el siguiente paso lógico de nuestra alcancía virtual. Ya sabemos saludar a la consola, pero ¿cómo hacemos para que nuestra alcancía recuerde datos importantes como el nombre del usuario, el dinero que posee y su meta de ahorro? Es en esta lección donde aprenderemos lo que vendrían a ser las variables. Empecemos con las lecciones.
+
+[0:30] Para entender cómo la computadora guarda la información, imaginemos que su memoria es una gran cómoda llena de cajones. A todo este conjunto de características cambiantes lo llamamos el estado de nuestra alcancía: el nombre, el saldo o la meta que cambia con el tiempo. Cada variable funciona exactamente igual que un cajón etiquetado: le ponemos un nombre claro para saber qué hay dentro y guardamos un valor. 
+
+[0:54] Además, como futuros ingenieros de software, seguimos reglas estrictas de nomenclatura como el formato lowerCamelCase para mantener nuestro proyecto ordenado, limpio y profesional antes de escribir cualquier línea de código.
+
+[1:16] En esta siguiente presentación: ¿cómo sabe la computadora qué tipo de cosas estamos guardando en el cajón? Para eso existen los tipos de datos. Deben saber que en el mundo de la programación existen muchísimos tipos de datos avanzados, pero para construir la base de nuestra alcancía solo utilizaremos los más básicos por ahora:
+- Usaremos String exclusivamente para los textos y nombres.
+- Double para los números decimales y montos con centavos, como nuestro dinero.
+- Int para números enteros.
+
+[1:51] Asimismo, cuando una regla es inquebrantable y no queremos que cambie durante la ejecución del programa, la aseguramos con una constante o variable final, protegiéndola como si estuviera en una caja fuerte. Con estos conceptos claros, ya estamos listos para pasar a la práctica.
+
+[2:16] Continuamos con la práctica de la lección 2. Una vez que entendimos la teoría de las variables, vamos a llevarlas al código en nuestro entorno en línea. Primero configuramos nuestra clase llamada Leccion02Variables y escribimos un mensaje de título en la consola usando System.out.println para indicar el inicio de la configuración de nuestra alcancía virtual.
+
+[2:45] Ahora vamos a crear las cajas de memoria que necesita nuestro programa. Primero declaramos una variable de tipo String y le asignamos el texto "Carlos" entre comillas dobles.
+
+[3:00] A continuación, como manejamos dinero y valores con centavos, utilizamos el tipo de dato double para crear variables de saldo inicial con un valor de 50 y la variable metaAhorro con un valor de 150, o el valor que nosotros quisiéramos poner. Recuerden siempre cerrar cada instrucción con un punto y coma; como vimos en la lección anterior, no poner un punto y coma podría marcarnos un error.
+
+[3:59] Para controlar cantidades exactas que no llevan decimales, como un conteo, utilizamos el tipo de dato entero, es decir, un int. Creamos una variable llamada limiteGastos y le asignamos un valor de 10. Esto nos servirá más adelante para limitar la cantidad máxima de registros permitidos en nuestra alcancía.
+
+[4:15] Una vez que los datos están guardados en nuestras variables, es momento de mostrarlos en pantalla para verificar que todo esté correcto. Utilizamos System.out.println.
+
+[4:30] En este caso, como voy a utilizar System.out.println cuatro veces, realizo un Ctrl + C y Ctrl + V para reutilizar esta línea de código y poner las palabras que quiera dentro de ellas.
+
+[4:48] Imprimiremos los datos anteriores que hemos escrito. Estamos concatenando el valor de nuestras variables: el nombre de usuario, el saldo inicial, la meta de ahorro y el límite de registros.
+
+[5:36] Le damos al botón de compilar y observaremos por consola, en el lado derecho, los datos generados por nuestra alcancía. Esto fue todo con la lección número 2 y nos veremos en la lección número 3. Muchas gracias.
+
+
+Lección 3: Sumando ingresos y calculando el porcentaje de tu meta
+
+
+[0:00] En esta lección vamos a agregar ingresos a nuestra alcancía virtual y calcular qué porcentaje de la meta llevamos. Imagina que estás ahorrando y recibes dinero en dos momentos del día.
+
+[0:13] Cada vez que guardes algo, el programa tiene que recordar el saldo anterior y sumarle el nuevo ingreso. Con ese saldo actualizado también podremos saber cuánto hemos avanzado. Vamos a resolverlo primero con números y luego a escribirlo juntos en Java.
+
+[0:31] Ya tienes 50 soles en tu alcancía. Guardas 20 más. ¿Cuánto tienes ahora? 70. Luego guardas 5 soles. La segunda suma empieza con 70 porque ese ya es el nuevo saldo; entonces 70 + 5 nos da 75.
+
+[0:52] En Java podemos escribir `saldo = saldo + ingreso`. Primero se calcula el lado derecho con el valor anterior y después la asignación guarda el resultado en la misma variable. La forma corta es `saldo += ingreso`. La usaremos dos veces: primero para guardar 20 soles y luego para guardar 5.
+
+[1:19] Ahora queremos saber qué parte de los 150 soles representa nuestro saldo. Dividimos lo que tenemos entre la meta: 75 / 150 da 0.5. Multiplicamos por 100 y obtenemos 50%. Ya llegamos a la mitad.
+
+[1:42] Hay un detalle en Java: si dividimos dos enteros como 75 / 150, Java devuelve 0 porque descarta la parte decimal. Para conservar esa mitad, declaramos el saldo y la meta como `double`. En este ejercicio la meta es positiva, así que podemos dividir por ella.
+
+[2:11] Antes de pasar al editor, prueba esta predicción: si a los 75 soles le sumas 15 más y dejas la meta en 150, ¿cuánto quedaría en la alcancía? ¿Qué porcentaje debería mostrar Java? Primero programaremos el ejemplo original y luego añadiremos los 15 para comprobar tu predicción.
+
+[2:44] Voy a compartir el editor. Las variables iniciales ya están listas dentro de `main`. Escribiremos las sumas, calcularemos el porcentaje y ejecutaremos el programa.
+
+[3:00] Aquí tenemos el saldo inicial, los dos ingresos y la meta; todos usan `double`. La meta se mantiene igual aunque entren más ingresos. Fíjate en el punto que usamos para escribir el decimal en Java.
+
+[3:17] Con `+=` sumo y guardo el nuevo valor. En la primera línea el saldo pasa de 50 a 70. En la segunda empezamos con 70, le sumamos 5 y llegamos a 75. Cada línea deja listo el valor que usará la siguiente.
+
+[3:39] Calculamos el porcentaje después de sumar los ingresos. Los paréntesis muestran qué operaciones hacemos: primero dividimos el saldo entre la meta y luego multiplicamos por 100. Aquí esperamos 50.
+
+[3:54] Mostremos los dos resultados: uno responde cuánto dinero tenemos y el otro indica qué parte de la meta representa. Agrego el símbolo de porcentaje (`%`) al final del segundo mensaje.
+
+[4:08] La consola muestra 75 soles y 50%. Eso coincide con lo esperado. Mira dónde se calculó el avance: se actualiza después del saldo y, como el saldo y la meta son `double`, conservamos la parte decimal de la división.
+
+[4:30] Veamos si acertaste: sumo 15 antes de la fórmula y vuelvo a ejecutar. Ahora aparece 90 soles y 60%. La ubicación de esa línea importa: el porcentaje tiene que usar el saldo nuevo.
+
+[4:48] Con `+=` actualizamos el saldo. Luego dividimos el saldo entre la meta y multiplicamos por 100 para calcular el avance.
+
+[4:59] En la próxima lección retomamos el ejemplo original de 75 soles para comprobar si alcanza para un gasto.
+
+
+Lección 4: Tomando decisiones: ¿Nos alcanza el saldo para un gasto?
+
+
+[0:00] En el ejemplo principal de la lección anterior dejamos 75 soles en nuestra alcancía virtual. Ahora queremos saber si alcanzarán para un gasto.
+
+[0:12] Antes de restar el precio, el programa necesita comprobar si alcanza el saldo: si alcanza, puede registrar el gasto y mostrar cuánto queda; si no alcanza, conserva el saldo y explica cuánto falta.
+
+[0:33] Esta comparación nos dice si podemos pagar. La decisión de hacer la compra sigue siendo nuestra. Hoy vamos a programar esa comprobación con `if` y `else`.
+
+[0:47] Probemos primero sin código:
+- Si tengo 75 soles y el gasto cuesta 30, sí alcanza y me quedan 45.
+- Piensa en un gasto que cueste exactamente 75: debería permitirse. Sí, tenemos el importe exacto y el saldo quedaría en cero.
+- Por último, si el gasto cuesta 90, nos faltan 15 soles. En ese caso no se registra el gasto y conservamos nuestros 75.
+
+[1:27] Cada caso comienza con el mismo saldo. Estamos comparando tres alternativas independientes, así que los resultados de una prueba no afectan a la siguiente.
+
+[1:41] La condición pregunta: ¿el saldo es mayor o igual que el gasto (`saldo >= gasto`)? El símbolo mayor o igual (`>=`) incluye la igualdad; si usáramos solo mayor que (`>`), rechazaríamos la compra que cuesta exactamente lo que tenemos.
+
+[2:02] El `if` ejecuta el primer bloque si la condición es verdadera; ahí restamos el gasto con `saldo -= gasto`. Si la condición es falsa, Java ejecuta el `else`, así podemos calcular cuánto falta con `gasto - saldo`, pero dejamos intacta la variable saldo. Las llaves (`{}`) marcan qué instrucciones pertenecen a cada bloque.
+
+[2:40] Una predicción antes de pasar al editor: con un saldo de 75, ¿qué mensaje debería aparecer si el gasto es de 76? Piensa cuánto falta y cuánto debería ser el saldo final. Vamos a comprobarlo al final en el código en vivo.
+
+[2:58] Voy a compartir el editor. Escribiremos una condición y la probaremos cambiando el gasto. El saldo inicial seguirá en 75 en cada ejecución.
+
+[3:12] Aquí tengo el dinero disponible y aquí pongo el precio. Arranco con los mismos saldos del ejercicio anterior; al volver a ejecutar el programa, esta primera línea pondrá otra vez 75.
+
+[3:29] Leo esta condición antes de hacer la resta: 75 es mayor o igual que 30. Como es verdadera, entra a este bloque (`-=`), resta y guarda el nuevo valor en saldo.
+
+[3:47] En la segunda rama mostraremos la diferencia entre lo que cuesta y lo que tenemos. Aquí no modificamos el saldo. Al final imprimo el saldo fuera de las llaves, así lo veo sea cual sea la rama que se ejecute.
+
+[4:09] Con 30 soles sí alcanza: el programa descuenta 30 y nos quedan 45. Ese es el resultado que predijimos.
+
+[4:20] Ahora la compra cuesta lo mismo que el saldo inicial. El caso de la igualdad entra al `if` gracias al `=` de la comparación, y el saldo final queda en cero.
+
+[4:30] 90 supera nuestro saldo: la condición es falsa y entramos al `else`. La consola indica que faltan 15 soles y el saldo final sigue en 75 porque en esta rama solo calculamos la diferencia. Estas pruebas usan importes positivos escritos en el código.
+
+[4:55] Veamos tu predicción: con 76 falta 1 sol y la consola mantiene el saldo en 75.
+
+[5:03] Si obtienes un saldo negativo, revisa si la resta quedó fuera del bloque de la condición. Primero comprobamos si alcanza:
+- Si alcanza, actualizamos.
+- Si no, informamos cuánto falta y dejamos el saldo intacto.
+- Y si el gasto es exactamente igual al saldo, la operación se permite.
+
+
+Lección 5: Construyendo el menu interactivo de opciones del usuario
+
+
+
+[0:00] Hola a todos, bienvenidos a la lección número 5 de nuestro curso fundamentos de Java para principiantes. 
+
+[0:07] Hasta ahora, como pudimos ver, nuestra alcancía virtual solo sabía mostrar mensajes en la consola. Esta hablaba, pero no escuchaba. Hoy vamos a cambiar eso: vamos a crear un menú interactivo, es decir, un menú que muestra opciones, espera que el usuario elija una y se repite hasta que decida salir. Este es el primer paso para que nuestro programa se sienta como una aplicación real.
+
+[0:31] Antes de escribir código, tenemos que entender cómo hace Java para escuchar lo que escribimos. Fíjate en este camino: primero, tú escribes en el teclado, por ejemplo, el número 3; ese dato viaja por `System.in`, que podemos imaginarlo como un cable de entrada; luego llega al `Scanner`, que es el oído de Java, es quien realmente escucha lo que escribiste; y finalmente el dato se guarda en una variable llamada `opcion`, que es como una caja donde Java guarda tu elección para poder usarla después.
+
+[1:04] Para poder lograr esto, necesitamos solo dos líneas de código:
+- La primera es el `import`: esta es como abrir la caja de herramientas, le decimos a Java que vamos a usar la herramienta de lectura llamada `Scanner`. Sin esta línea, Java no sabría qué es un `Scanner` y nos daría un error.
+- La segunda línea crea nuestro lector y la podemos leer por partes: `Scanner` es el tipo (qué clase de objeto estamos creando), `lectura` es el nombre que nosotros elegimos (podría llamarse de otra forma, pero `lectura` es más fácil de recordar), y por último, la palabra `new` significa crear y `System.in` le indica que va a leer desde el teclado.
+
+[1:50] Ahora viene la parte importante: un menú no se muestra una sola vez. Si elijo ingresar dinero, quiero volver al menú para hacer otra cosa. Para repetir instrucciones usamos el ciclo `while`, que en español sería "mientras". 
+
+[2:07] Fíjate en el flujo: primero se muestra el menú, luego se lee la opción que escribió el usuario y después se hace una pregunta en este rombo: ¿la opción es distinta de 5? Si la respuesta es sí, sigue la flecha verde, vuelve arriba y repite todo el ciclo; si la respuesta es no, es decir, si el usuario eligió 5, sigue por el otro camino y sale del ciclo, que en nuestro menú significa salir del programa.
+
+[2:30] En código esto se escribe así: `while` y entre paréntesis la condición `opcion != 5`, y todo lo que esté entre llaves se va a repetir. Recuerda este detalle: el signo de exclamación e igual (`!=`) significa "distinto de". Entonces, mientras no elijas el 5, el menú seguirá apareciendo una y otra vez.
+
+[2:53] Veamos un ejemplo con tres vueltas para que quede claro:
+- En la primera vuelta, el usuario escribe 1: se ingresa dinero y el programa vuelve al menú.
+- En la segunda vuelta escribe 3: se muestra la meta y otra vez vuelve al menú.
+- En la tercera vuelta escribe 5: ahí sí el ciclo termina. Solo el 5 rompe el ciclo, cualquier otro número lo mantiene funcionando.
+
+[3:16] Ahora vamos a ver todo esto en código real dentro de un compilador de Java en línea. Empezamos con nuestra clase donde escribimos `public class Leccion05`, y dentro escribimos el método principal: `public static void main(String[] args)` y abrimos llaves. Todo lo que escribamos hoy va a ir dentro de este `main`.
+
+[4:00] Nos pasamos hasta arriba de todo el código porque vamos a escribir `import java.util.Scanner;`. Aquí estamos abriendo la caja de herramientas donde le decimos a Java que vamos a usar la herramienta de lectura.
+
+[4:18] Ahora vamos a crear el lector dentro de las llaves del `main`: `Scanner lectura = new Scanner(System.in);`.
+
+[4:41] Creamos nuestra caja `opcion` debajo de esta línea: `int opcion = 0;`. Este es un entero y empieza en 0 porque el usuario todavía no ha elegido nada.
+
+[4:57] Debajo vamos a crear nuestro bucle `while`: `while (opcion != 5)` y abrimos llaves. Todo lo que pongamos entre estas llaves se repetirá mientras nuestra opción sea distinta de 5.
+
+[5:08] Creamos el título del menú con `System.out.println(...)`, dándole un diseño a nuestro menú. De la misma forma, vamos a crear las 5 opciones para nuestro menú:
+1. Ingresar dinero
+2. Registrar un gasto
+3. Ver meta
+4. Ver historial
+5. Salir
+
+[6:39] Ahora le pedimos la opción a elegir usando `System.out.print` (esta vez sin `ln` para que el cursor se quede en la misma línea) y mostramos el mensaje: "Elige una opción (1-5): ".
+
+[7:04] Pasamos a la línea más importante: `opcion = lectura.nextInt();`. Esto espera un número entero que escriba el usuario, lo guarda en la variable `opcion` y en cada vuelta del ciclo lo actualiza.
+
+[7:25] Por último, vamos a escribir nuestra despedida al usuario. Esta sale del bucle, así que va fuera de las llaves: `System.out.println("Hasta pronto");`.
+
+[7:49] Nos fijamos que todo esté bien escrito y que todo tenga punto y coma. Si falta un punto y coma, verán que marca un error, por lo que debemos corregirlo antes de ejecutar.
+
+[8:18] Al ejecutarlo, aparece el menú. Si escribo el número 1, el menú vuelve a aparecer; si escribo el 3, de la misma forma vuelve a aparecer. Mientras no escriba el número 5, el ciclo no se va a detener. Cuando se ingresa el número 5, nos manda el mensaje de "Hasta pronto" y se termina el ciclo.
+
+[8:42] Hoy pudimos aprender a leer lo que el usuario escribe con `Scanner` y a repetir instrucciones con `while`. En la siguiente lección vamos a capturar datos como montos de dinero y hacer que cada opción del menú realice una acción. Gracias por ver esta lección.
+
+
+Lección 6: Capturando datos del teclado y creando acciones de la alcancía
+
+
+[0:00] Hola a todos, bienvenidos a la lección 6. En la lección anterior creamos un menú que sabe qué opción eligió el usuario, pero un menú sin acciones no nos sirve de mucho. Hoy vamos a capturar datos como un monto de dinero y a usarlos para que nuestra alcancía realmente haga algo con ellos. Vamos a ver cómo leerlos, cómo guardarlos y cómo usarlos.
+
+[0:21] Imagina el viaje de un dato: tú escribes 150 en el teclado; el Scanner, que es el oído de Java, lo escucha; la variable `monto`, que es una cajita, lo guarda; luego un método lo usa y, por último, el saldo de la alcancía cambia. Es como entregar dinero en una ventanilla: alguien lo recibe, lo anota y lo deposita en la cuenta.
+
+[0:38] Todo este viaje se resume en tres pasos: leer, guardar y usar.
+- Leer es escuchar el dato con el Scanner.
+- Guardar es ponerlo en una variable para no perderlo.
+- Usar es pasárselo a un método para que haga algo con él.
+
+[0:55] En código se ve así:
+1. `double monto = lectura.nextDouble();` (que lee y guarda al mismo tiempo).
+2. `alcancia.ingresarDinero(monto);` (que usa lo que guardamos).
+
+[1:13] Ahora, una pregunta importante: ¿todos los datos se leen igual? La respuesta es no. Scanner tiene un método diferente para cada tipo de dato:
+- Si espero un número entero sin decimales (como la cantidad de monedas), uso `nextInt()` y lo guardo en una variable `int`.
+- Si espero dinero o cualquier número con decimales, uso `nextDouble()` y lo guardo en un `double`. Este es el que usaremos para los montos.
+- Si espero texto (como el nombre de una meta de ahorro), uso `nextLine()` y lo guardo en un `String`.
+
+[1:45] Recuerda la regla: el método que usas para leer tiene que combinar con el tipo de tu variable (`int` con `nextInt()`, `double` con `nextDouble()`, `String` con `nextLine()`). Si no combinan, Java no sabrá qué hacer con el dato.
+
+[2:01] Veamos todo junto:
+1. La línea 1 le pregunta al usuario cuánto quiere ingresar.
+2. La línea 2 lee el monto y lo guarda en la variable.
+3. La línea 3 lo suma a la alcancía.
+4. La línea 4 muestra un mensaje de confirmación.
+
+Fíjate cómo el saldo pasa de 0 soles a 150: pregunta, lee, guarda, usa y confirma.
+
+[2:27] Antes de pasar al código, un pequeño repaso para que no se te olvide:
+- Si te piden la edad de alguien (número entero): usas `int` y `nextInt()`.
+- Si te piden el precio de un producto (tiene decimales): usas `double` y `nextDouble()`.
+- Si te piden un nombre (texto): usas `String` y `nextLine()`.
+
+Con esos tres métodos puedes capturar casi cualquier dato que necesite tu programa bajo la misma idea: lees, guardas y usas.
+
+[2:54] Ahora pasamos al código en línea. Empezamos con nuestra clase `public class Leccion06Main` y abrimos llaves. En la línea 2 creamos el método principal `public static void main(String[] args)` y volvemos a abrir llaves.
+
+[3:29] Subimos hasta arriba y traemos la herramienta de lectura: `import java.util.Scanner;`.
+
+[3:47] Ahora creamos el lector en la línea 4: `Scanner lectura = new Scanner(System.in);`.
+
+[4:04] Creamos la variable de saldo debajo de esta línea: `double saldo = 0;`. Es `double` porque es dinero y contiene decimales, y empieza en 0 porque nuestra alcancía comienza vacía.
+
+[4:19] Le preguntamos al usuario cuánto quiere ingresar con `System.out.print("Monto a ingresar en soles: ");`.
+
+[4:50] Leemos y guardamos con `double monto = lectura.nextDouble();`. `nextDouble()` espera un número con decimales y lo guarda en la variable `monto`. Como sabemos que es dinero, `double` y `nextDouble()` van de la mano.
+
+[5:23] Ahora usamos el dato: escribimos `saldo = saldo + monto;`. Tomamos lo que había en el saldo, le sumamos el monto y el resultado se guarda otra vez en saldo para que nuestra alcancía vaya creciendo.
+
+[5:39] Confirmamos el monto con `System.out.println("Listo, se sumaron soles: " + monto);`. El `+` une el texto con el valor variable.
+
+[6:14] Por último, mostramos el saldo actual: `System.out.println("Saldo actual en soles: " + saldo);`.
+
+[6:51] Revisamos que todo esté bien escrito, corregimos posibles faltas ortográficas en el código y verificamos que todas las líneas cierren con punto y coma.
+
+[7:07] Ejecutamos el programa. La alcancía nos pregunta un monto, ingresamos `150.50` y nos devuelve el saldo actual de `150.50`. El dato viajó desde nuestro teclado hasta la alcancía.
+
+[7:17] Haremos un error a propósito para probar: si ingresamos un texto como "hola" cuando espera recibir un monto, saldrá un error de coincidencia de tipo (`InputMismatchException`). Esto ocurre porque el dato no coincide con lo que Java esperaba, por lo que es muy importante usar el método correcto para cada tipo de dato.
+
+[7:43] Con esto cerramos la lección. Hoy aprendimos a leer un dato, guardarlo en una variable y usarlo para que tu alcancía actúe: ahora escucha, guarda y responde. En la siguiente lección seguiremos construyendo nuestro proyecto. ¡Gracias por ver esta lección!
+
+
+Lección 7: Diseñando la estructura de tu Alcancía y el registro de Gastos
+
+
+[0:01] Hola a todos, bienvenidos a la lección número 7 de nuestro curso de fundamentos de Java para principiantes. En esta ocasión aprenderemos a utilizar las clases y objetos para organizar mejor nuestra alcancía virtual. También conoceremos cómo representar nuestros gastos, almacenar información y crear objetos utilizando Java. No se preocupen si estos conceptos parecen complicados, los aprenderemos mediante ejemplos sencillos relacionados con nuestra alcancía. Comencemos.
+
+[0:31] Primero debemos comprender qué son una clase y un objeto. Imaginemos que queremos fabricar varias alcancías: antes necesitamos un molde que nos indique cómo serán. En programación sucede algo parecido: una clase es como un molde que define las características de los objetos que podemos crear. Por ejemplo, tenemos la clase `Gasto`, que contiene la información necesaria para representar una compra.
+
+[0:56] Ahora bien, ¿qué es un objeto? Un objeto es un ejemplo concreto creado a partir de una clase. En nuestro caso, podemos crear un objeto llamado `primerGasto` que represente la compra de un snack por 5 soles con 50 céntimos. Recuerden: la clase es el molde y el objeto es lo que creamos utilizando ese molde.
+
+[1:22] Ahora que conocemos las clases y los objetos, vamos a hablar de los atributos. Los atributos son variables que permiten almacenar información dentro de un objeto. En nuestra clase `Gasto` tenemos dos atributos: 
+- El primero es `concepto`, que nos permite identificar qué producto compramos (por ejemplo, un snack o un cuaderno). 
+- El segundo es `monto`, que almacena cuánto dinero gastamos.
+
+[1:46] Por otro lado, tenemos nuestra clase `AlcanciaVirtual`, que contiene tres atributos: 
+- El primero es `usuario`, donde guardamos el nombre del propietario.
+- El segundo es `saldoActual`, que representa la cantidad de dinero disponible.
+- Finalmente `metaAhorro`, que indica cuánto dinero queremos ahorrar.
+
+Por ejemplo, podemos tener una alcancía de Mateo con 50 soles y una meta de 150 soles. De esta manera, las clases nos permitirán mantener nuestra información organizada.
+
+[2:20] Ahora vamos a conocer dos elementos importantes para crear nuestros objetos. 
+
+Primero tenemos el constructor: un constructor es un bloque especial que nos permite asignar valores iniciales a un objeto cuando lo creamos. Por ejemplo, cuando creamos un gasto, podemos indicar su concepto y su monto desde el principio. Lo mismo ocurre con nuestra alcancía, a la que podemos asignar un usuario, un saldo inicial y una meta de ahorro.
+
+[2:46] También tenemos la palabra reservada `new`. Esta palabra crea una nueva instancia de una clase. Por ejemplo, al escribir `new Gasto(...)`, estamos creando un objeto utilizando la clase `Gasto`. Y cuando utilizamos `new AlcanciaVirtual(...)`, estamos creando nuestra alcancía virtual con los valores que le proporcionamos. Así podemos crear diferentes objetos sin tener que escribir una clase nueva para cada uno.
+
+[3:12] Ahora vamos a observar cómo funcionan estos conceptos directamente en código Java utilizando JDoodle.
+
+[3:21] Nos encontramos en JDoodle, una herramienta que nos permite escribir y ejecutar código Java desde nuestro navegador. Vamos a comenzar creando nuestra primera clase llamada `Gasto`. Para ello utilizamos la palabra `class` seguida del nombre de nuestra clase. Dentro declaramos dos atributos: `concepto` de tipo `String` (que almacena texto) y `monto` de tipo `double` (que permite almacenar cantidades con decimales). 
+
+[3:52] Después creamos el constructor de la clase. Este recibe los valores que utilizamos para inicializar nuestros atributos. Con la palabra `this` hacemos referencia a los atributos del objeto que estamos creando. Así tenemos lista la estructura para representar nuestros gastos.
+
+[4:12] Continuamos con nuestra segunda clase llamada `AlcanciaVirtual`. Esta clase nos permite representar los datos de nuestra alcancía: primero declaramos el atributo `usuario` que almacena el nombre del propietario; luego tenemos `saldoActual` donde guardamos el dinero disponible; finalmente tenemos `metaAhorro` que representa nuestro objetivo de ahorro.
+
+[4:39] Después definimos el constructor, que recibe el usuario, el saldo inicial y la meta con las instrucciones de asignación, y guardamos esos valores dentro de los atributos correspondientes. De esta manera tenemos las dos clases que utilizaremos en nuestra lección: `Gasto` y `AlcanciaVirtual`.
+
+[5:00] Ahora vamos a la parte principal de nuestro programa. Aquí encontramos el método `main`, que es donde comienza la ejecución. Primero creamos un objeto de la clase `Gasto` utilizando la palabra `new`. En este ejemplo registramos la compra de un snack por 5 soles con 50 céntimos.
+
+[5:22] Después creamos un objeto de la clase `AlcanciaVirtual`. Le damos el nombre de Mateo, un saldo inicial de 50 soles y una meta de 150 soles. Con esto podemos comprobar que nuestras clases funcionan como moldes para crear objetos con información específica.
+
+[5:40] Ahora vamos a utilizar una instrucción que ya conocemos de las lecciones anteriores: `System.out.println`. Esta instrucción nos permite mostrar información en la consola. La utilizamos para imprimir los datos del gasto y de nuestra alcancía. 
+
+[5:55] Para acceder a los atributos de un objeto utilizamos su nombre seguido de un punto y del atributo que queremos consultar (`objeto.atributo`). Por ejemplo, podemos obtener el concepto y el monto del gasto, así como el usuario, saldo y meta de nuestra alcancía.
+
+[6:14] Ahora vamos a ejecutar nuestro programa para comprobar si funciona correctamente.
+
+[6:19] En la consola observamos que aparece un error de compilación. El mensaje indica que Java no puede encontrar el símbolo `string`. ¿Por qué ocurre esto? Porque en el método `main` escribimos `string` con la primera letra en minúscula, y Java distingue entre mayúsculas y minúsculas (es case-sensitive), por lo cual `string` y `String` no significan lo mismo. `String` con la 'S' mayúscula es el nombre correcto de la clase que utilizamos para trabajar con cadenas de texto. 
+
+[6:44] Por lo tanto, regresamos a esa línea para corregir el error cambiando la letra inicial por una 'S' mayúscula: `String`.
+
+[6:57] Ejecutamos el programa y, con esta corrección, Java puede reconocer el tipo de dato y compilar correctamente nuestro código. Este ejemplo nos enseña algo importante: al programar en Java debes prestar atención a las mayúsculas y minúsculas para evitar estos errores.
+
+[7:16] Muy bien, hemos llegado al final de nuestra lección. Hoy aprendimos qué son las clases, los objetos y los atributos. También utilizamos los constructores y la palabra `new` para crear nuestra alcancía virtual y representar gastos. En la siguiente lección continuaremos mejorando nuestro programa. Nos vemos la próxima lección.
+
+
+Lección 8: Protegiendo tu saldo y probando tu Alcancía Virtual en vivo
+
+
+[0:00] Hola a todos y bienvenidos a una nueva clase de Java para principiantes. Llegamos oficialmente a nuestra última lección, la Lección 8: Protegiendo tu saldo y probando tu alcancía virtual en vivo.
+
+[0:12] ¿Alguna vez han querido controlar sus gastos? ¿Saber exactamente cuánto dinero les queda para salir el fin de semana o calcular cuánto les falta para comprarse ese videojuego o zapatillas que tanto quieren? Hoy no vamos a usar una app descargada, la vamos a programar nosotros desde cero en Java. Pónganse cómodos, abran su editor porque hoy cerramos el curso por todo lo alto. ¡Arrancamos!
+
+[0:35] Antes de ir al código, entendamos qué estamos construyendo. En la vida real, las aplicaciones manejan información agrupada y en Java usamos la programación orientada a objetos. Para nuestra alcancía virtual necesitamos organizar la información en dos piezas clave:
+- La clase `Gasto`: piensen en esto como un ticket o un recibo. Cada vez que gastamos guardamos dos cosas: qué compramos y cuánto nos costó.
+- La clase `AlcanciaVirtual`: es nuestra caja fuerte inteligente. Se acuerda de quién es la alcancía, cuánto saldo tenemos, cuál es nuestra meta de ahorro y guarda una lista de hasta 10 gastos.
+
+[1:12] Además, usaremos un menú interactivo con un bucle `while` para que el programa se mantenga vivo y respondiendo a lo que el usuario elija. Vamos a ver el código.
+
+[1:22] Miren el código aquí en pantalla. Vamos a desglosarlo rápido para que vean lo sencillo que es:
+1. Primero, arriba tenemos la clase `Gasto` con sus atributos privados (`concepto` y `monto`). Solo sirve para almacenar los datos de cada compra de forma ordenada.
+2. Luego viene la clase `AlcanciaVirtual`. Fíjense en el método `ingresarDinero(double cantidad)`: se usa un `if` para asegurar que solo sumemos montos positivos, nada de números negativos.
+3. Ahora miren `registrarGasto`: este método es clave. Verifica dos cosas con un `if`: primero, que el monto sea válido y menor o igual a nuestro saldo actual. Si tenemos dinero, descuenta el saldo y guarda el gasto en el arreglo `listaGastos`. Pero si intentamos gastar más de lo que tenemos, nos saldrá la advertencia: "Saldo insuficiente o monto inválido". Así proteges tu saldo en vivo.
+
+[2:32] Pasamos al método `verificarMeta`: ¿qué hace esto? Básicamente es nuestro tablero de control para saber si estamos cumpliendo el sueño o nos estamos quedando sin fondos. Fíjense en lo que hace paso a paso:
+1. Imprime en pantalla un encabezado y nos muestra nuestra meta total frente al saldo que nos queda.
+2. Hace una regla de tres matemática rapidísima para decirnos exactamente el porcentaje de avance que llevamos. Lo que ven subrayado en pantalla es solo para que el número salga bonito con un solo decimal y el símbolo de porcentaje (`%`).
+3. Finalmente, usamos una estructura `if` y `else`: si nuestro saldo ya es mayor o igual a la meta, el programa nos felicita con un "Meta alcanzada". Pero si todavía nos falta, el `else` calcula exactamente cuánto dinero nos falta restando `metaAhorro` y `saldoActual`, y nos lo imprime en pantalla. Es superútil porque te dice la verdad en la cara sobre cómo vas en tus finanzas.
+
+[3:44] Y finalmente tenemos el método `mostrarHistorial`, que funciona como nuestro libro de contabilidad o el ticket de compras. Miren cómo funciona por dentro:
+1. Primero usamos un condicional `if`: si el contador `gastos` es igual a cero, significa que todavía no hemos comprado nada, así que el programa simplemente imprime un mensaje amigable: "No hay gastos registrados".
+2. Pero si ya tenemos gastos guardados, entra en acción el bloque `else`: usamos un bucle
